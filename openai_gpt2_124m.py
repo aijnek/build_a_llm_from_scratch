@@ -120,6 +120,7 @@ if __name__ == "__main__":
     gpt.eval()
 
     # load downloaded weights
+    # weights can be downloaded using gpt_download.py
     model_dir = "models/124M"
     params = load_gpt2_params(model_dir)
 
