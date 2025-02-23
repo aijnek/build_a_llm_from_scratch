@@ -11,3 +11,6 @@ wheels/
 
 # model weights
 models
+*.pth
+checkpoint
+model.ckpt.*
